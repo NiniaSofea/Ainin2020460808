@@ -1,0 +1,199 @@
+body
+ { 
+  background-image: url("resource/image/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  }
+ 
+
+
+
+h1
+ {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 70px;
+  letter-spacing: 1px;  
+ }
+
+h2 
+ {
+  font-family: 'Playfair Display', serif;
+  text-align: left;
+  font-weight: bold;
+  font-size: 50px;
+  letter-spacing: 1px; 
+  color:#1b1b1b; 
+ }
+
+
+h3
+ {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 70px;
+  letter-spacing: 1px; 
+  background-color:#EFC3CD;
+  color:#1b1b1b; 
+  outline: 5px dotted GREY;
+  }
+
+
+p
+ {
+  font-family: 'Georgia', serif;
+  font-weight: normal;
+  line-height: 1.8;
+ }
+
+
+pre
+ {
+  font-family: 'Georgia', serif;
+  font-weight: normal;
+  line-height: 1.8;
+ }
+
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+
+
+
+figure 
+ {
+  border: 1px #cccccc solid;
+  padding: 4px;
+  margin: auto
+ }
+
+
+figcaption 
+ {  
+  font-family: 'Georgia', serif;
+  font-weight: normal;
+  line-height: 1.8;
+  color: black;
+  font-style: italic;
+  padding: 2px;
+  text-align: left;
+ }
+
+
+blockquote
+ {  
+  font-family: 'Georgia', serif;
+  font-weight: normal;
+  line-height: 1.8;
+  color: black;
+  font-style: italic;
+ }
+
+
+table, th, td
+ {
+  border:1px solid black;
+  font-family: 'Georgia', serif;
+  font-weight: normal;
+  line-height: 1.8;
+ }
+
+
+
+
+
+
+#slideshow {
+  text-align: center;
+  overflow: hidden;
+  height: 400px;
+  width: 728px;
+  margin: 0 auto;
+}
+
+.slide-wrapper {
+  width: 2912px;
+  -webkit-animation: slide 18s ease infinite;
+}
+
+.slide {
+  float: left;
+  height: 400px;
+  width: 728px;
+}
+
+.slide:nth-child(1) {
+  background: #FOE5EA;
+}
+
+.slide:nth-child(2) {
+  background: #FOE5EA;
+}
+
+.slide:nth-child(3) {
+  background: #FOE5EA;
+}
+
+.slide:nth-child(4) {
+  background: #FOE5EA;
+}
+
+.slide:nth-child(5) {
+  background: #FOE5EA;
+}
+
+
+
+@-webkit-keyframes slide {
+  20% {margin-left: 0px;}
+  30% {margin-left: -728px;}
+  50% {margin-left: -728px;}
+  60% {margin-left: -1456px;}
+  70% {margin-left: -1456px;}
+  80% {margin-left: -2184px;}
+  90% {margin-left: -2184px;}
+}
+
+
+
+.container {
+  position: relative;
+  font-family: Arial;
+}
+
+
+
+
+.text-block {
+  position: left;
+  bottom: 20px;
+  right: 20px;
+  background-color: grey;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
